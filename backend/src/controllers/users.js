@@ -24,7 +24,7 @@ exports.login = async (req, res, next) => {
         if (!isPasswordValid) {
             throw createHttpError(400, 'Invalid credentials')
         }
-
+//
         const user = await BuyerModel.findOne({ email: email }).exec();
 
         const token = jwt.sign(
