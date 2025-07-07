@@ -23,4 +23,4 @@ const adminSchema = new Schema({
 
 const Admin = mongoose.model('Comapny', adminSchema);
 
-module.exports = Admin;
+module.exports = Admin;//
