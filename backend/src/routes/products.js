@@ -12,5 +12,5 @@ router.get('/all', ProductController.getAll)
 
 router.get('/:id', ProductController.getById)
 router.get('/search/:search', ProductController.search)
-
+//
 module.exports = router;
