@@ -55,6 +55,7 @@ const Register = () => {
           value={password}
           placeholder="Password"
           onChange={(e) => setPassword(e.target.value)}
+//
           style={{
             width: '200px', 
             height: '30px',
