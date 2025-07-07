@@ -25,7 +25,7 @@ const adoptionSchema = new Schema({
         required: true,
     }
 });
-
+//
 const Adoption = mongoose.model('Adoption', adoptionSchema);
 
 module.exports = Adoption;
