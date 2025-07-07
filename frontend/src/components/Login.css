@@ -87,6 +87,7 @@
   top: calc(50% - 12px);
   left: calc(50% - 64.5px);
   font-size: var(--font-size-base);
+  //
   letter-spacing: 0.03em;
   text-transform: capitalize;
   font-weight: 600;
