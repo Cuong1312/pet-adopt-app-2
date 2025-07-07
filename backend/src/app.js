@@ -17,7 +17,7 @@ const cors = require('cors')
 app.use(cors())
 
 app.use(express.json())
-
+//
 app.use('/api/v1/users', BuyerRouter);
 app.use('/api/v1/admin', CompanyRouter);
 app.use('/api/v1/pets', ProductRouter)
