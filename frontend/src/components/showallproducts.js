@@ -51,6 +51,7 @@ const GetAll = () => {
     }
     async function getProductsSearch() {
         const search2 = search;
+        //
         if(search2 == ""){
             getProducts2()
             return;
