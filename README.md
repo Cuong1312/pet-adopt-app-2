@@ -1,72 +1,32 @@
-# Pet Adoption Web Application using MERN
+🐶 Pet Adopt App
+🔍 Tính năng Xác thực người dùng: Người dùng có thể đăng ký, đăng nhập, và đăng xuất khỏi hệ thống.
 
-![Pet Adoption Web Application](./ScreenShots/loginpage.png)
+Chức năng CRUD: Người dùng có thể thực hiện các thao tác Thêm (Create), Xem (Read), Chỉnh sửa (Update) và Xoá (Delete) đối với các bài đăng thú cưng.
 
-This is a MERN (MongoDB, Express.js, React.js, Node.js) stack project for a Pet Adoption Web Application. Users can view available pets for adoption, add new pets for adoption, and adopt pets.
+Tải ảnh lên: Người dùng có thể tải ảnh thú cưng lên khi muốn đăng tin cho nhận nuôi.
 
-## Features
+Chức năng tìm kiếm: Cho phép người dùng tìm kiếm thú cưng dựa theo nhiều tiêu chí như giống loài, độ tuổi, v.v.
 
-- User authentication: Users can sign up, log in, and log out.
-- CRUD operations: Users can perform CRUD (Create, Read, Update, Delete) operations on pet listings.
-- Image upload: Users can upload images of pets they want to put up for adoption.
-- Search functionality: Users can search for pets based on various parameters such as breed, age, etc.
-- Responsive design: The application is responsive and works seamlessly on various devices.
+Giao diện phản hồi tốt (Responsive design): Ứng dụng được thiết kế phù hợp với mọi thiết bị, từ điện thoại đến máy tính, đảm bảo trải nghiệm mượt mà.
 
-## Installation
+Công nghệ được sử dụng 🎨 Frontend (Giao diện người dùng): React.js – Thư viện JavaScript để xây dựng giao diện người dùng hiện đại.
 
-To run this project locally, follow these steps:
+Redux – Dùng để quản lý trạng thái toàn cục của ứng dụng.
 
-1. Clone the repository:
+Material UI – Thư viện giao diện dựa theo phong cách thiết kế Material Design của Google.
 
-   ```
-   git clone https://github.com/sahanrashmikaslk/MERN-PetAdoptationWebApplication.git
-   ```
+🛠 Backend (Phía máy chủ): Node.js – Môi trường chạy JavaScript phía backend.
 
-2. Navigate to the project directory:
+Express.js – Framework nhẹ và mạnh mẽ để xây dựng API trong Node.js.
 
-   ```
-   cd MERN-PetAdoptationWebApplication
-   ```
+MongoDB – Hệ quản trị cơ sở dữ liệu NoSQL.
 
-3. Install dependencies:
+Mongoose (ODM) – Thư viện giúp thao tác với MongoDB dễ dàng hơn thông qua mô hình đối tượng (Object Data Modeling).
 
-   ```
-   npm install
-   ```
+🔐 Xác thực người dùng: JWT (JSON Web Tokens) – Công nghệ mã hóa token dùng để xác thực đăng nhập và bảo mật người dùng.
 
-4. Set up environment variables:
+🔗 Khác: Axios – Thư viện JavaScript dùng để gửi các yêu cầu HTTP (GET, POST, PUT, DELETE) từ frontend đến backend.
 
-   Create a `.env` file in the root directory and add the following variables:
-
-   ```
-   MONGODB_URI=<your_mongodb_uri>
-   JWT_SECRET=<your_jwt_secret>
-   ```
-
-5. Run the development server:
-
-   ```
-   npm run dev
-   ```
-
-6. Open http://localhost:3000 or whatever port in your browser to view the application.
-
-## Technologies Used
-
-- **Frontend**
-  - React.js
-  - Redux (for state management)
-  - Material UI (for styling)
-- **Backend**
-  - Node.js
-  - Express.js
-  - MongoDB (with Mongoose ODM)
-- **Authentication**
-  - JSON Web Tokens (JWT)
-- **Others**
-  - Axios (for making HTTP requests)
-
-## Acknowledgments
-
-- This project was inspired by the love for animals and the desire to help them find loving homes.
-  
+📎 Link demo + báo cáo
+Link GitHub: https://github.com/Cuong1312/pet-adopt-app-2.git)
+Báo cáo kỹ thuật sẽ đính kèm sau
