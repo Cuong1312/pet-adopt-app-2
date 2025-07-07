@@ -20,6 +20,7 @@ const Login = () => {
     }).then((response) => {
       if (response.status === 200) {
         // Successful login
+        //
         dispatch(login(response.data));
         console.log(response);
         window.location.href = "/";
