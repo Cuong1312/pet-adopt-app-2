@@ -28,7 +28,7 @@ exports.create = async (req, res, next) => {
         if (!petname || !pettype || !petbreed || !petage || !location) {
             throw createHttpError(400, 'Please provide all the required fields');
         }
-
+//
         const pet = new ProductModel({
             petname,
             pettype,
