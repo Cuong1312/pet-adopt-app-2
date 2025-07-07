@@ -62,6 +62,7 @@ const CreateProduct = (props) => {
         const formData = new FormData();
         formData.append("petname", name);
         formData.append("image", image);
+        //
         formData.append("pettype", pettype);
         formData.append("petbreed", petbreed);
         formData.append("petage", petage);
