@@ -17,7 +17,7 @@ exports.register = async (req, res, next) => {
         if (isCompanyAvailable) {
             throw createHttpError(400, 'Company already exists')
         }
-
+//
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const company = new CompanyModel({
