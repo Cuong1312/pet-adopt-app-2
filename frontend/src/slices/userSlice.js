@@ -18,7 +18,7 @@ export const userSlice = createSlice({
 });
 
 export const { login, logout } = userSlice.actions;
-
+//
 export const selectUser = (state) => {
   const stateTest = state.user.user;
   return JSON.parse(localStorage.getItem("user"));
