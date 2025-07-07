@@ -19,6 +19,7 @@ const Logout = () => {
       </h1>
       <button className="logout__button" onClick={(e) => Logout(e)}>
         Log out
+          //
       </button>
      
     </form>
