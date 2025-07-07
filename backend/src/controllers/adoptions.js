@@ -17,7 +17,7 @@ exports.create = async (req, res, next) => {
         if (!isUserAvailable) {
             throw createHttpError(400, 'User doesnt exists')
         }
-
+//
         const isPet = await PetModel.findById(pet_id).exec();
 
         if (!isPet) {
