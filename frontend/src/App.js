@@ -72,6 +72,7 @@ const App = () => {
                         } />
 
                         <Route path="/pets" element={
+                //
                             //only show the logout component if the user is logged in
                             user ? <GetAll /> : <Login />
                         } />
